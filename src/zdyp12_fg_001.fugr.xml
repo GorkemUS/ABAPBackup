@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Table-Structure-Dictionary Operations</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDYP12_FG_001TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDYP12_FG_001</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZDYP12_FM_001</FUNCNAME>
+     <SHORT_TEXT>Table-Structure-Dictionary Operations</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>ZDYP12_FM_002</FUNCNAME>
+     <SHORT_TEXT>Function Module CRUD</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZDYP12_TT_FATURA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Fatura Bilgisi</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZDYP12_FM_HW</FUNCNAME>
+     <SHORT_TEXT>Function Module Homework</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_DATA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZDYP12_S_HW</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_TABLE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZDYP12_TT_HW</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Personel Tablosu</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_TABLE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Personel Tablosu</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZDYP12_FM_ODEV</FUNCNAME>
+     <SHORT_TEXT>Modify Table Data</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZDYP12_TT_ODEV2</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZDYP12_S_ODEV2</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_MESSAGE</PARAMETER>
+       <TYP>TEXT100</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_TYPE</PARAMETER>
+       <TYP>CHAR1</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Edit Database Table with FM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ALV Structure Odev 2</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Text (100 characters)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_TYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

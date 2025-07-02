@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.9.20230422.1.42_SAP" APIVersion="3.6.23111.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2024-07-30T06:31:06Z" uuid="077333a3-844f-4dd0-9a31-eec83840535c">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <subform layout="tb" locale="tr_TR" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <contentArea h="171.45mm" w="203.2mm" x="6.35mm" y="69.85mm"/>
+            <medium long="11in" short="8.5in" stock="letter"/>
+            <subform h="60.325mm" name="Header" w="209.55mm" x="6.35mm" y="6.35mm">
+               <bind match="none"/>
+               <draw h="8.055mm" name="Text1" w="50.8mm" x="69.85mm" y="3.175mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <exData contentType="text/html" xliff:rid="9F477208-EFC9-4617-A238-F8286BB8BECF">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="text-align:center;font-weight:normal;text-decoration:none;letter-spacing:0in">Stock Log Table</p></body>
+                     </exData>
+                  </value>
+                  <font baselineShift="0pt" size="16pt" typeface="Segoe UI" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <border>
+                     <edge/>
+                     <corner inverted="1" join="round" radius="2mm" thickness="0.175mm"/>
+                  </border>
+               </draw>
+               <draw h="6.35mm" name="Text2" w="38.629mm" x="76.2mm" y="12.7mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="DF83E2F6-8438-4251-B6A7-29ED5FC88BBB">ALV Adobe Form</text>
+                  </value>
+                  <font baselineShift="0pt" typeface="Segoe UI"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+               </draw>
+               <draw h="31.75mm" name="Image1" w="50.8mm" x="9.525mm" y="12.7mm">
+                  <value>
+                     <image aspect="none" contentType="image/jpeg">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</image>
+                  </value>
+                  <ui>
+                     <imageEdit/>
+                  </ui>
+                  <border>
+                     <edge presence="hidden"/>
+                     <corner inverted="1" join="round" presence="hidden" radius="2mm" thickness="0.175mm"/>
+                  </border>
+                  <desc>
+                     <text name="embeddedHref">C:\Users\görkemgökçe\Pictures\nagarro-new-20229714.jpg</text>
+                  </desc>
+               </draw>
+               <subform h="34.886mm" name="Subform2" w="73.025mm" x="136.525mm" y="9.601mm">
+                  <bind match="none"/>
+                  <field h="9mm" name="USERNAME" w="62mm" x="9.525mm" y="3.175mm">
+                     <ui>
+                        <textEdit>
+                           <border>
+                              <edge/>
+                           </border>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <caption reserve="25mm">
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="0B46CB71-D66A-43D6-B525-09F5E6723451">User</text>
+                        </value>
+                        <font baselineShift="0pt" typeface="Segoe UI"/>
+                     </caption>
+                     <value>
+                        <text maxChars="12"/>
+                     </value>
+                     <bind match="dataRef" ref="$.SFPSY.USERNAME"/>
+                     <desc>
+                        <text name="Schema Annotation">User Name</text>
+                     </desc>
+                  </field>
+                  <field h="9mm" name="DATE" w="62mm" x="9.525mm" y="12.7mm">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <date/>
+                     </value>
+                     <caption reserve="25mm">
+                        <font baselineShift="0pt" typeface="Segoe UI"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="43BAC7D1-0387-447B-94E6-3870DA76B221">Time</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.SFPSY.DATE">
+                        <picture>date{YYYY-MM-DD}</picture>
+                     </bind>
+                     <desc>
+                        <text name="Schema Annotation">System Date</text>
+                     </desc>
+                     <validate nullTest="error"/>
+                  </field>
+                  <field h="9mm" name="TIME" w="62mm" x="9.525mm" y="22.149mm">
+                     <ui>
+                        <dateTimeEdit>
+                           <border>
+                              <edge/>
+                           </border>
+                           <margin/>
+                        </dateTimeEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <time/>
+                     </value>
+                     <caption reserve="25mm">
+                        <font baselineShift="0pt" typeface="Segoe UI"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text xliff:rid="AE9B71AE-816C-414E-9EB5-358720AB61B4">Date</text>
+                        </value>
+                     </caption>
+                     <bind match="dataRef" ref="$.SFPSY.TIME">
+                        <picture>time{KK:MM:SS}</picture>
+                     </bind>
+                     <desc>
+                        <text name="Schema Annotation">System Time</text>
+                     </desc>
+                     <validate nullTest="error"/>
+                  </field>
+                  <?templateDesigner expand 1?></subform>
+               <field access="readOnly" h="9mm" id="floatingField000041" name="GV_HEADER_T1" presence="hidden" w="62mm" x="0mm" y="0mm">
+                  <ui>
+                     <textEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <text maxChars="30"/>
+                  </value>
+                  <bind match="dataRef" ref="$.GV_HEADER_T1"/>
+                  <caption>
+                     <value>
+                        <text xliff:rid="8F7BA83C-576A-4278-A311-F4CDA743612F">GV_HEADER_T1</text>
+                     </value>
+                  </caption>
+                  <desc>
+                     <text name="Schema Annotation">30 Characters</text>
+                  </desc>
+               </field>
+               <draw h="5.2331mm" name="Text3" w="1.284319in" x="79.375mm" y="31.75mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <exData contentType="text/html">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p><span xfa:embed="#floatingField000041" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                     </exData>
+                  </value>
+                  <font posture="italic" size="11pt" typeface="Segoe UI"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+               </draw>
+               <?templateDesigner expand 1?></subform>
+            <subform h="32.9mm" name="Subform1" w="203.141mm" x="6.382mm" y="244.475mm">
+               <bind match="none"/>
+               <field access="readOnly" h="7.5mm" id="floatingField006334" name="CurrentPage" presence="hidden" w="55mm" x="117.475mm" y="25.4mm">
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="20mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="67ABF0EA-8626-42C3-87FD-1F77CDB34709">Text Field</text>
+                     </value>
+                  </caption>
+                  <calculate override="error"/>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+                  </event>
+                  <?templateDesigner floatingFieldPlaceholder #?>
+                  <bind match="none"/>
+               </field>
+               <field access="readOnly" h="7.5mm" id="floatingField026500" name="PageCount" presence="hidden" w="55mm" x="117.475mm" y="25.4mm">
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="20mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="A4F26755-49E6-4A83-B92D-26274152A769">Text Field</text>
+                     </value>
+                  </caption>
+                  <calculate override="error"/>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount();
+</script>
+                  </event>
+                  <?templateDesigner floatingFieldPlaceholder ##?>
+                  <bind match="none"/>
+               </field>
+               <draw name="Pages" x="180.716mm" y="25.4mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <exData contentType="text/html" maxLength="0" xliff:rid="47FBA56A-B635-4BDF-BF2E-BEFE6C47B688">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p>Page<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField006334" xfa:embedMode="raw" xfa:embedType="uri"/> of<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField026500" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                     </exData>
+                  </value>
+                  <font typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+               </draw>
+               <field h="13.594mm" name="IV_BARCODE" w="36.844mm" x="3.143mm" y="15.875mm">
+                  <ui>
+                     <barcode checksum="auto" dataLength="10" textLocation="belowEmbedded" type="code128A" wideNarrowRatio="fixed"/>
+                  </ui>
+                  <font typeface="Courier New"/>
+                  <value>
+                     <text xliff:rid="4A3A2BF3-83A5-46D8-8D87-DC9341FF176A">1234567890</text>
+                  </value>
+                  <bind match="none"/>
+                  <desc>
+                     <text name="Schema Annotation">Char 20</text>
+                  </desc>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">var totalPages = xfa.layout.pageCount();
+var currentPage = xfa.layout.page(this);
+
+if (currentPage == totalPages) {
+    this.presence = "visible";
+} else {
+    this.presence = "hidden";
+}
+
+</script>
+                  </event>
+               </field>
+               <field access="readOnly" h="19.092mm" name="IV_QRCODE" w="19.092mm" x="180.943mm" y="3.175mm">
+                  <ui>
+                     <barcode dataLength="10" errorCorrectionLevel="1" moduleHeight="0.0167in" moduleWidth="0.0167in" type="QRCode"/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="CB966AF4-54A8-4FA6-B871-1FDFED3764E3">1234567890</text>
+                  </value>
+                  <bind match="dataRef" ref="$.IV_QRCODE"/>
+                  <desc>
+                     <text name="Schema Annotation">Comment</text>
+                  </desc>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">var totalPages = xfa.layout.pageCount();
+var currentPage = xfa.layout.page(this);
+
+if (currentPage == totalPages) {
+    this.presence = "visible";
+} else {
+    this.presence = "hidden";
+}
+
+
+</script>
+                  </event>
+               </field>
+               <?templateDesigner expand 1?></subform>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="Subform3" w="203.173mm">
+         <bind match="none"/>
+         <subform layout="tb" w="203.168mm">
+            <bind match="none"/>
+            <subform columnWidths="40.5118mm 40.5118mm 40.5118mm 41.1521mm 40.5118mm" hAlign="center" layout="table" name="IT_ADATA">
+               <subform id="overflowLeader_ID" layout="row" name="overflowLeader" x="0mm">
+                  <draw>
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="1B28467A-149F-47D9-ABE0-7576CD293C48">Material</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw w="16.6666mm">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="0532DAE1-38DC-4E84-960D-4D99D4A71D55">Material Description</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw>
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="8D2321D9-69CE-4F99-AF5F-BBF535EC8D6B">Plnt</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw>
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="B5B43D9B-664A-4B3F-99BF-93A7BC786AFB">Name 1</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <draw>
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <value>
+                        <text xliff:rid="77FB9531-CB57-4BDC-96EF-EC80EDAD888D">Unrestricted</text>
+                     </value>
+                     <font typeface="Arial"/>
+                     <para vAlign="middle"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </draw>
+                  <assist role="TH"/>
+                  <occur max="-1"/>
+                  <bind match="none"/>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="row" name="DATA" x="0mm">
+                  <field h="9mm" name="MATNR" w="62mm" y="0.354333in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="40"/>
+                     </value>
+                     <bind match="dataRef" ref="$.MATNR"/>
+                     <desc>
+                        <text name="Schema Annotation">Material Number</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="9mm" name="MAKTX" w="62mm" x="2.440944in" y="0.354333in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="40"/>
+                     </value>
+                     <bind match="dataRef" ref="$.MAKTX"/>
+                     <desc>
+                        <text name="Schema Annotation">Material Description</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="9mm" name="WERKS" w="62mm" x="4.881889in" y="0.354333in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="4"/>
+                     </value>
+                     <bind match="dataRef" ref="$.WERKS"/>
+                     <desc>
+                        <text name="Schema Annotation">Plant</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="9mm" name="NAME1" w="62mm" y="0.708667in">
+                     <ui>
+                        <textEdit>
+                           <margin/>
+                        </textEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <text maxChars="35"/>
+                     </value>
+                     <bind match="dataRef" ref="$.NAME1"/>
+                     <desc>
+                        <text name="Schema Annotation">Name 1</text>
+                     </desc>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <field h="9mm" name="SAP_STOCK" w="62mm" y="1.063in">
+                     <ui>
+                        <numericEdit>
+                           <margin/>
+                        </numericEdit>
+                     </ui>
+                     <font typeface="Arial"/>
+                     <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                     <para vAlign="middle"/>
+                     <value>
+                        <decimal fracDigits="3" leadDigits="10"/>
+                     </value>
+                     <bind match="dataRef" ref="$.SAP_STOCK"/>
+                     <desc>
+                        <text name="Schema Annotation">Valuated Unrestricted-Use Stock</text>
+                     </desc>
+                     <validate nullTest="error"/>
+                     <border>
+                        <edge/>
+                     </border>
+                  </field>
+                  <assist role="TR"/>
+                  <occur max="-1"/>
+                  <bind match="dataRef" ref="$.DATA[*]"/>
+                  <?templateDesigner expand 1?></subform>
+               <bind match="dataRef" ref="$.IT_ADATA"/>
+               <desc>
+                  <text name="Schema Annotation">Stock Table Type</text>
+               </desc>
+               <?templateDesigner expand 0?></subform>
+            <field h="9mm" hAlign="right" name="GV_TTL_STOCK" w="66.643mm">
+               <ui>
+                  <numericEdit>
+                     <border presence="hidden"/>
+                     <margin/>
+                  </numericEdit>
+               </ui>
+               <font typeface="Arial"/>
+               <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+               <para vAlign="middle"/>
+               <value>
+                  <decimal fracDigits="3" leadDigits="10"/>
+               </value>
+               <caption reserve="30.7036mm">
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                  <value>
+                     <text xliff:rid="362F279D-DDF1-4F50-8D2C-EC6E6333378D">Total Stock</text>
+                  </value>
+                  <font baselineShift="0pt" size="12pt" typeface="Arial" weight="bold"/>
+               </caption>
+               <bind match="dataRef" ref="$.GV_TTL_STOCK"/>
+               <desc>
+                  <text name="Schema Annotation">Valuated Unrestricted-Use Stock</text>
+               </desc>
+               <validate nullTest="error"/>
+               <border>
+                  <edge/>
+                  <corner thickness="0.175mm"/>
+               </border>
+            </field>
+            <?templateDesigner expand 1?></subform>
+         <subform layout="tb" name="Subform5" w="60.325mm">
+            <bind match="none"/>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <desc>
+         <text name="version">11.0.9.20230422.1.42.2</text>
+      </desc>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 UTF-16 2 132 0003000600140024002700280029002A002B0030003100330035003700380039004200440046004700480049004A004C004F0050005100520053005500560057005B?>
+      <?renderCache.subset "Arial" 1 0 UTF-16 2 36 00030036003700440046004E004F00520057?>
+      <?renderCache.subset "Courier New" 0 0 UTF-16 2 40 0013001400150016001700180019001A001B001C?>
+      <?renderCache.subset "Segoe UI" 0 0 UTF-16 2 92 0003002400270029002F003600370038003900440045004600470048004A004C004E004F00500052005500560057?>
+      <?renderCache.subset "Segoe UI" 0 1 UTF-16 2 48 0014002400270028002A002B0035003700390042005E0060?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultRunAt client?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner DefaultCaptionFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Arial;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?acrobat JavaScript strictScoping?>
+   <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000), objsnap:0, guidesnap:0, pagecentersnap:0?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+   <?templateDesigner Zoom 136?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>https://D21HANA21.MBIS.COM.TR:44300/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font posture="normal" psName="EdwardianScriptITC" typeface="Edwardian Script ITC" weight="normal"/>
+      <font posture="normal" psName="SegoeUI" typeface="Segoe UI" weight="normal"/>
+      <font posture="normal" psName="SegoeUI-Bold" typeface="Segoe UI" weight="bold"/>
+      <font posture="italic" psName="SegoeUI-Italic" typeface="Segoe UI" weight="normal"/>
+   </psMap>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZDYP12_ADOBE_STOCK_F">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <GV_HEADER_T1/>
+         <SFPSY>
+            <DATE/>
+            <TIME/>
+            <USERNAME/>
+            <SUBRC/>
+         </SFPSY>
+         <IT_ADATA dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <CONTROL/>
+               <COLOR/>
+               <TRAFFIC_LIGHT/>
+               <MATNR/>
+               <MAKTX/>
+               <WERKS/>
+               <NAME1/>
+               <LGORT/>
+               <CHARG/>
+               <SAP_STOCK/>
+               <PHYSICAL_STOCK/>
+               <MEINS/>
+            </DATA>
+         </IT_ADATA>
+         <IV_BARCODE/>
+         <GV_TTL_STOCK/>
+         <IV_QRCODE/>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="Türkçe (Türkiye)" name="tr_TR">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>Ocak</month>
+            <month>Şubat</month>
+            <month>Mart</month>
+            <month>Nisan</month>
+            <month>Mayıs</month>
+            <month>Haziran</month>
+            <month>Temmuz</month>
+            <month>Ağustos</month>
+            <month>Eylül</month>
+            <month>Ekim</month>
+            <month>Kasım</month>
+            <month>Aralık</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Oca</month>
+            <month>Şub</month>
+            <month>Mar</month>
+            <month>Nis</month>
+            <month>May</month>
+            <month>Haz</month>
+            <month>Tem</month>
+            <month>Ağu</month>
+            <month>Eyl</month>
+            <month>Eki</month>
+            <month>Kas</month>
+            <month>Ara</month>
+         </monthNames>
+         <dayNames>
+            <day>Pazar</day>
+            <day>Pazartesi</day>
+            <day>Salı</day>
+            <day>Çarşamba</day>
+            <day>Perşembe</day>
+            <day>Cuma</day>
+            <day>Cumartesi</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Paz</day>
+            <day>Pzt</day>
+            <day>Sal</day>
+            <day>Çar</day>
+            <day>Per</day>
+            <day>Cum</day>
+            <day>Cmt</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">DD MMMM YYYY EEEE</datePattern>
+         <datePattern name="long">DD MMMM YYYY EEEE</datePattern>
+         <datePattern name="med">DD.MMM.YYYY</datePattern>
+         <datePattern name="short">DD.MM.YYYY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">HH:MM:SS Z</timePattern>
+         <timePattern name="long">HH:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GanjkHmsSEDFwWxhKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">z,zz9 $</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">,</numberSymbol>
+         <numberSymbol name="grouping">.</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">TL</currencySymbol>
+         <currencySymbol name="isoname">TRL</currencySymbol>
+         <currencySymbol name="decimal">,</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+         <typeface name="Adobe Devanagari"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c000 79.cca54b0, 2022/11/26-09:29:55        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <xmp:MetadataDate>2024-07-30T06:31:06Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <pdfuaid:part>1</pdfuaid:part>
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+         <xmpMM:DocumentID>uuid:077333a3-844f-4dd0-9a31-eec83840535c</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.9.20230422.1.42.2</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta></xdp:xdp>
