@@ -1,0 +1,18 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="RESPONSE" type="ddic:ZGG_S_SOAP2"/>
+  <tt:template>
+    <RESPONSE>
+      <COUNTRIES>
+        <tt:loop ref=".RESPONSE.COUNTRIES">
+          <COUNTRY>
+            <MANDT tt:value-ref="MANDT"/>
+            <CODE tt:value-ref="CODE"/>
+            <NAME tt:value-ref="NAME"/>
+            <FLAG tt:value-ref="FLAG"/>
+          </COUNTRY>
+        </tt:loop>
+      </COUNTRIES>
+    </RESPONSE>
+  </tt:template>
+</tt:transform>

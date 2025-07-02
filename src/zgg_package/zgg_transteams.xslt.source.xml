@@ -1,0 +1,30 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="RESPONSE" type="ddic:ZGG_S_MTEAMS"/>
+  <tt:template>
+    <RESPONSE>
+      <PUAN_DURUMU>
+        <tt:loop ref=".RESPONSE.PUAN_DURUMU">
+          <TAKIM>
+            <MANDT tt:value-ref="MANDT"/>
+            <COUNTRY tt:value-ref="COUNTRY"/>
+            <LEAGUE tt:value-ref="LEAGUE"/>
+            <TEAM_ID tt:value-ref="TEAM_ID"/>
+            <RANK tt:value-ref="RANK"/>
+            <TEAM_NAME tt:value-ref="TEAM_NAME"/>
+            <LOGO tt:value-ref="LOGO"/>
+            <POINTS tt:value-ref="POINTS"/>
+            <GOALSDIFF tt:value-ref="GOALSDIFF"/>
+            <FORM tt:value-ref="FORM"/>
+            <PLAYED tt:value-ref="PLAYED"/>
+            <WIN tt:value-ref="WIN"/>
+            <DRAW tt:value-ref="DRAW"/>
+            <LOSE tt:value-ref="LOSE"/>
+            <FOR_ tt:value-ref="FOR_"/>
+            <AGAINST tt:value-ref="AGAINST"/>
+          </TAKIM>
+        </tt:loop>
+      </PUAN_DURUMU>
+    </RESPONSE>
+  </tt:template>
+</tt:transform>

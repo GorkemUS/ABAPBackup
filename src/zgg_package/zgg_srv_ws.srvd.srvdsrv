@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service defition for Web Service Consume'
+define service ZGG_SRV_WS {
+  expose ZGG_CE_WS;
+}

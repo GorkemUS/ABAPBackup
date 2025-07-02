@@ -1,0 +1,19 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="RESPONSE" type="ddic:ZGG_S_LEAGUE1"/>
+  <tt:template>
+    <RESPONSE>
+      <LEAGUES>
+        <tt:loop ref=".RESPONSE.LEAGUES">
+          <LEAGUE>
+            <MANDT tt:value-ref="MANDT"/>
+            <COUNTRY tt:value-ref="COUNTRY"/>
+            <ID tt:value-ref="ID"/>
+            <NAME tt:value-ref="NAME"/>
+            <LOGO tt:value-ref="LOGO"/>
+          </LEAGUE>
+        </tt:loop>
+      </LEAGUES>
+    </RESPONSE>
+  </tt:template>
+</tt:transform>
